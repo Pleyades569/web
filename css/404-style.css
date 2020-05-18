@@ -1,0 +1,278 @@
+
+*::-moz-selection{
+	background: #021e4f;
+	color: #fff;
+}
+*::selection{
+	background: #021e4f;
+	color: #fff;
+}
+
+
+#navbarheader ul li {
+	margin: 10px 0;
+	padding-right: 380px;
+}
+.dropdown-menu {
+	padding: 380px;
+}
+#navbarheader ul li a {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#navbarheader ul li a:hover {
+	padding-right: 380px;
+	background: #fff;
+	color: #021e4f;
+	text-decoration: blink;
+	border-radius: 5px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;	
+}
+
+#navbarheader {
+	background: #010f26;
+}
+
+#navbarheadertoggler {
+	background: #021e4f;
+}
+
+/*Menú*/
+
+
+nav{
+	background: #021e4f;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 17px;
+}
+
+.nav-link:hover {
+	background: rgba(255,255,255,0.05);
+	border-radius: 5px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.active {
+	background: rgba(255,255,255,0.05);
+	border-radius: 5px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+}
+
+#Castores, #Manada, #Tropa, #Esculta, #Clan, #Kraal {
+	border-radius: 5px; 
+}
+
+#Castores:hover {
+	background: #2ec4b5;
+	color: #fff;
+	border-radius: 5px; 
+}
+
+#Manada:hover {
+	background: #c9be27;
+	color: #fff;
+	border-radius: 5px; 
+}
+#Tropa:hover {
+	background: #61bd49;
+	color: #fff;
+	border-radius: 5px; 
+}
+#Esculta:hover {
+	background: #94420c;
+	color: #fff;
+	border-radius: 5px; 
+}
+#Clan:hover {
+	background: #ad1002;
+	color: #fff;
+	border-radius: 5px; 
+}
+#Kraal:hover {
+	background: #9e0e70;
+	color: #fff;
+	border-radius: 5px; 
+}
+
+/*Fin menú*/
+.banner{
+	border-radius: 0;
+}
+h4{
+	
+	padding: 2px;
+	border: 0.5px solid #000;
+	border-radius: 5px;
+}
+
+.carousel img {
+	animation-duration: 10s; 
+	animation-name: ease;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+}
+
+@-webkit-keyframes ease {
+  from {
+  	transform: scale (1) ;}
+  to {transform: scale(1.1);}
+}
+
+@keyframes ease {
+ 	from {transform: scale (1);}
+ 	 to {transform: scale(1.1);}	
+}
+
+.common-link {
+	text-decoration: underline;
+	color: #622599;
+	padding: 0 1.5px;
+	border-radius: 5px;
+}
+.common-link:hover {
+	text-decoration: none;
+	background: #622599;
+	color: #fff;
+
+}
+
+.contenedor{
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	background: #dbd6d3;
+	color:#000;
+	height: auto;
+}
+
+.contenedor p {
+	text-align: justify;
+	font-size: 18px;
+
+}
+
+.video {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+footer {
+	padding: 10px;
+	background: #000308;
+	
+}
+
+.img-link{
+	opacity: 1;
+}
+
+.img-link:hover{
+	opacity: 0.3;
+	-webkit-transition:all 150ms ease;
+	-moz-transition:all 150ms ease;
+	-ms-transition:all 150ms ease;
+	-o-transition:all 150ms ease;
+	transition: all 150ms ease;
+}
+
+#social img{
+	border-radius: 5px;
+}
+
+#social a {
+	color: #fff; 
+	font-size: 22px;
+}
+
+#social a:hover {
+	text-decoration: none;
+}
+
+.icon-youtube:hover {
+	color: #c4302b;
+	text-decoration: none;
+	font-size: 34px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+}
+.icon-twitter:hover {
+	color: #00aced;
+	text-decoration: none;
+	font-size: 34px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.icon-facebook:hover {
+	color: #3b5998;
+	text-decoration: none;
+	font-size: 34px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+	
+}
+
+.icon-instagram:hover {
+	color: #bc2a8d;
+	text-decoration: none;
+	font-size: 34px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+	
+}
+
+#arriba:hover {
+	color: #021e4f;
+	font-size: 34px;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition: all 300ms ease;
+}
+
+footer p{
+	color:#fff;
+	
+}
+
+/*
+	Colores recurrentes
+
+	#Castores: #2ec4b5
+	#Manada: #c9be27
+	#Tropa: #61bd49
+	#Esculta: #94420c
+	#Clan: #ad1002
+	#Kraal: #9e0e70
+	
+*/
